@@ -1,0 +1,10 @@
+[kubernetes_master_nodes]
+kubernetes_master ansible_host=192.168.122.134
+
+[kubernetes_worker_nodes]
+kubernetes_worker ansible_host=192.168.122.133
+
+[all:vars]
+ansible_user=lab
+ansible_ssh_pass=lab123
+ansible_sudo_pass=lab123
